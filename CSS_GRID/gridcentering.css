@@ -1,0 +1,17 @@
+.gridcentering{
+background: grey;
+display: grid;
+justify-content: center;
+align-items: center;
+height: 200px;
+color:#fff;
+font-size: 20px;
+
+}
+
+/*
+Explanation
+display: grid enables grid.
+justify-content: center centers the child horizontally.
+align-items: center centers the child vertically.
+*/

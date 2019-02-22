@@ -1,0 +1,23 @@
+.image {
+    background: #34495e;
+    border: 1px solid #34495e;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .image-contain {
+    object-fit: contain;
+    object-position: center;
+  }
+  
+  .image-cover {
+    object-fit: cover;
+    object-position: right top;
+  }
+
+  /*
+  Explanation
+object-fit: contain fits the entire image within the container while preserving its aspect ratio.
+object-fit: cover fills the container with the image while preserving its aspect ratio.
+object-position: [x] [y] positions the image within the container.
+  */
